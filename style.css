@@ -1,0 +1,66 @@
+@import 'animate.css';
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
+    background: hsl(0, 0%, 17%);
+    margin-top: 5em;
+
+    
+  }
+.calculator{
+  background-color: hsl(0, 0%, 20%) ;
+  height: 27em;
+  width: 21em;
+  border-radius: 15px;
+}  
+#display{
+  width: 100%;
+  height: 2.4em;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border-radius: 6px  6px 0 0 ;
+  background-color: hsl(0, 0%, 29%);
+  font-size: 2em;
+  border: none;
+
+}
+  .key{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 18px;
+  }
+ .key button{
+  cursor: pointer;
+  background-color: hsl(0, 0%, 25%);
+  border: none;
+  border-radius: 45%;
+  color: white;
+  font-size: 2em;
+  width: 1.8em;
+  height: 3.5rem;
+  text-align: center;
+  font-weight: bold;
+
+
+
+  }
+  .key button:hover{
+    background-color: hsl(0, 0%, 30%);
+  }
+  .key button:active{
+    background-color: hsl(0, 0%, 35%) ;
+    
+  }
+  .key .operator{
+    background-color: hsla(17, 75%, 46%, 0.842);
+  }
+  .key .operator:hover{
+   background-color:  hsla(17, 75%, 60%, 0.845);
+  }
+
+  

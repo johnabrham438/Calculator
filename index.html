@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jhon calculator</title>
+   <link rel="stylesheet" href="style.css"> 
+   <link rel="icon" type="image/png"  href="https://imgs.search.brave.com/ximd6PS9GQLH1qzasxWJs6rOqXHe53GDDDnCF-eGIgQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzkxLzIyLzkw/LzM2MF9GXzg5MTIy/OTAxOV9rOWtLU04w/YjlIUERaV0FaTWJQ/Tjc1MVptSTVXaXd1/Vi5qcGc">
+</head>
+<body>
+   <div class="calculator">
+      <input id="display" readonly>
+      <div class="key">
+        <button onclick="apppendDisplay('+')" class="operator">+</button>
+        <button onclick="apppendDisplay('1')">1</button>
+        <button onclick="apppendDisplay('2')">2</button>
+        <button onclick="apppendDisplay('3')">3</button>
+        <button onclick="apppendDisplay('*')" class="operator" >*</button>
+        <button onclick="apppendDisplay('4')">4</button>
+        <button onclick="apppendDisplay('5')">5</button>
+        <button onclick="apppendDisplay('6')">6</button>
+        <button onclick="apppendDisplay('-') " class="operator" >-</button>
+       
+        <button onclick="apppendDisplay('7')">7</button>
+        <button onclick="apppendDisplay('8')">8</button>
+        <button onclick="apppendDisplay('9')">9</button>
+        <button onclick="apppendDisplay('/') " class="operator" >/</button>
+        <button onclick="apppendDisplay('0')">0</button>
+        <button onclick="apppendDisplay('.')">.</button>
+        <button onclick="Calculate()">=</button>
+        <button onclick="clearDisplay()" class="operator">c</button>
+      </div>
+   </div>
+   <script src="index.js"></script>
+</body>
+
+</html>
